@@ -1,5 +1,4 @@
-import { Base64Data } from '../base64-service/base64-type';
-export default interface ArtData {
-  data: Base64Data;
-  mode: string;
+import { Base64PNG } from '../base64-service/base64-type';
+export interface ArtData {
+  data: Base64PNG;
 }
